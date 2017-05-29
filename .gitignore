@@ -4,3 +4,4 @@ AutoComplete.iml
 output
 output/*
 *.class
+*.jar
