@@ -2,6 +2,5 @@
 CURPATH=$(dirname "$0")
 cd $CURPATH
 
-cd src/
-hadoop com.sun.tools.javac.Main *.java
-jar cf ngram.jar *.class
+hadoop com.sun.tools.javac.Main src/*.java -d build/
+jar cf build/ngram.jar build/*.class

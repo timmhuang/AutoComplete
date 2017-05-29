@@ -63,7 +63,7 @@ public class Driver {
         langModelBuild.setReducerClass(LanguageModel.LanguageModelReducer.class);
 
         langModelBuild.setMapOutputKeyClass(Text.class);
-        langModelBuild.setMapOutputValueClass(IntWritable.class);
+        langModelBuild.setMapOutputValueClass(Text.class);
         langModelBuild.setOutputKeyClass(Text.class);
         langModelBuild.setOutputValueClass(NullWritable.class);
 

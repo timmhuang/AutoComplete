@@ -5,3 +5,5 @@ output
 output/*
 *.class
 *.jar
+build
+build/*
